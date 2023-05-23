@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/">
+</head>
+<body>
+    <header class="fixo">
+        <div class="menu">
+            <nav>
+                <div class="logo">
+                    <span>Menu</span>
+                </div>
+    
+                <ul>
+                    <li><a href="#calculo">Calculo</a></li>
+                    <li><a href="#tabela">tabela</a></li>
+                    <li><a href="#importancia">Importância</a></li>
+                    <li><a href="#calculadora">Calculadora</a></li>
+                    <li><a href="#">IMC</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </div>
+        </header>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p><p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <h1>O que é o IMC (Índice de Massa Corporal)</h1>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <div>
+            <img class="img" src="../img/foto5.png" alt="foto5">
+            <p>&nbsp;</p><p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>IMC significa Índice de Massa Corporal e trata-se de uma medida do peso de cada pessoa,
+                 sendo uma relação entre a massa da pessoa e a sua altura ao quadrado. <br>
+                 <p>&nbsp;</p>
+                A partir desse cálculo é possível avaliar se a pessoa está com um peso ideal ou se está abaixo ou
+                 acima do peso. Tanto níveis abaixo, como níveis acima do peso ideal, podem oferecer riscos à saúde
+                  do indivíduo. <br>
+                  <p>&nbsp;</p>
+                Esta é uma medida de referência internacional reconhecida pela OMS (Organização Mundial da Saúde).
+                 É um cálculo simples para avaliar o peso, porém não mede diretamente a gordura corporal, já que não
+                  contempla a massa magra, massa gorda, líquidos e a estrutura óssea da pessoa em questão.</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+          <b id="calculo">Como calcular o IMC</b> <hr>
+          <p>&nbsp;</p>
+          <p>Para determinar o IMC, basta dividir o peso do indivíduo (massa) pela sua altura ao quadrado.
+             A massa deve ser definida em quilogramas (kg) e a altura em metros (m).</p> <br>
+             <img class="img" src="../img/foto6.jpg" alt="foto6">
+             <p>&nbsp;</p>
+             <p>&nbsp;</p>
+             <p>&nbsp;</p>
+            <b id="tabela">Tabela IMC</b> <hr>
+            <p>&nbsp;</p>
+            <p>A tabela a seguir indica a classificação dos valores de IMC, de acordo com a Organização Mundial da Saúde:</p>
+            <p>&nbsp;</p>
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th>classificação</th>
+                        <th>IMC (kg/m<sup>2</sup>)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Muito abaixo do peso</td>
+                        <td>Menor que 18,5</td>
+                    </tr>
+                    <tr>
+                        <td>Normal</td>
+                        <td>18,5 - 24,9</td>
+                    </tr>
+                    <tr>
+                    <td>Obesidade grau I</td>
+                    <td>30 - 34,9</td>
+                </tr>
+                <tr>
+                    <td>Obesidade grau II</td>
+                    <td>35 - 39,9</td>
+                </tr>
+                <tr>
+                    <td>Obesidade grau III</td>
+                    <td>Maior que 40</td>
+                </tr>
+                </tbody>
+            </table>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <B id="importancia">A importância do IMC</B> <hr>
+            <p>&nbsp;</p>
+            <p>Saber o IMC é importante para verificar se o peso está de acordo com a altura da pessoa, além de ser importante para saber se existe risco de desenvolver alguma doença. No caso das crianças, o IMC é importante para saber se o desenvolvimento está de acordo com o esperado.</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <b id="calculadora">Calcule seu IMC</b> <hr>
+            <p>&nbsp;</p>
+
+    <main>
+        <h2>calculo imc</h2>
+        <div class="divaltura">
+            <label for="altura">Altura:</label>
+            <input 
+                type="number" 
+                name="height" 
+                id="altura"
+                placeholder="Exemplo 1,75">
+        </div>
+        <div class="divpeso">
+                <label for="peso">Peso:</label>
+                <input 
+                type="number" 
+                name="weight" 
+                id="peso"
+                placeholder="Exemplo 70,5">
+            </div>
+        <div class="action-control">
+            <button onclick="calcIMC()">Calcular</button>
+        </div>
+        <div id="resultado">
+            <div id = "img"></div>
+            <div id="calcIMC"></div> 
+        </div>
+      
+    </main>
+    <script src="../viweb/jc/myscript.js"></script>
+</body>
+</html>
